@@ -4,7 +4,7 @@ def check_password_strength(password):
     strength_points = 0
     suggestions = []
 
-    # Length check
+    # Length check for password
     if len(password) >= 8:
         strength_points += 1
     else:
